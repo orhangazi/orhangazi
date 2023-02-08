@@ -4,7 +4,7 @@ const SummaryTr = () => {
 			<h6>Hakkımda:</h6>
 			<p>
 				2010 yılından 2012 yılında mezun olana kadar üniversitemde kendi bölümümde kısmi süreli çalışan öğrenci olarak çalıştım.
-				2010 yılında Erzindan Üniversitesini kazandıktan bu yana yazılım geliştirme faaliyetlerinde bulundum.
+				2010 yılında Erzincan Üniversite'sini kazandıktan bu yana yazılım geliştirme faaliyetlerinde bulundum.
 			</p>
 			<p>
 				2017-2018 yılları arasında Gazi Yazılım şirketini kurup yönettim, 2017 Ağustos ayından 2019 Eylül ayına kadar Beyoğlu
