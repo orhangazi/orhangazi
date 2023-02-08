@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import ProfilImage from "./images/instagram-150x150.jpg"
 import SummaryEn from "./components/SummaryEn.js"
 import SummaryTr from "./components/SummaryTr.js"
@@ -6,10 +6,6 @@ import SummaryTr from "./components/SummaryTr.js"
 function App() {
 
 	const [language, setLanguage] = useState("en")
-
-	useEffect(()=>{
-		console.log("Language changed: ", language)
-	}, [language])
 
 	return (
 		<div className="container h-100">
@@ -20,17 +16,15 @@ function App() {
 					<div className="col-md-6">
 						<div className="row">
 							<div className="col" style={{textAlign: "right"}}>
-								<a href="#" onClick={(e) => { 
-										e.preventDefault()
+								<a href={()=>false} onClick={(e) => {
 										setLanguage("tr")
-									}} style={{color: "antiquewhite"}}>
+							}} style={{ color: "antiquewhite", cursor: "pointer", textDecoration: "underline", fontWeight: language==="tr"?"bold":"normal"}}>
 									Türkçe
 								</a>
 								<span> • </span>
-								<a href="#" onClick={(e) => { 
-										e.preventDefault()
+								<a href={()=>false} onClick={(e) => {
 										setLanguage("en")
-									}} style={{color: "antiquewhite"}}>
+							}} style={{ color: "antiquewhite", cursor: "pointer", textDecoration: "underline", fontWeight: language === "en" ? "bold" : "normal" }}>
 									English
 								</a>
 							</div>
@@ -62,6 +56,7 @@ function App() {
 								style={{color: "antiquewhite"}}
 								href="https://www.linkedin.com/in/orhan-gazi-k%C4%B1l%C4%B1%C3%A7-09147077/"
 								target="_blank"
+								rel="noreferrer"
 							>
 								Orhan Gazi Kılıç
 							</a>
@@ -73,6 +68,7 @@ function App() {
 								style={{color: "antiquewhite"}}
 								href="https://github.com/orhangazi"
 								target="_blank"
+								rel="noreferrer"
 							>
 								orhangazi
 							</a>
