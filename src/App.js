@@ -17,7 +17,7 @@ function App() {
 						<div className="row" style={{justifyContent: "space-between"}}>
 							<div className="col-md-auto">
 								<a href={"/blog"} style={{ color: "antiquewhite", cursor: "pointer", textDecoration: "underline"}}>
-									{language === "tr" ? "Blog'u Oku" : "Read the Blog"}
+									{language === "tr" ? "Blogumu Oku" : "Read the Blog"}
 								</a>
 							</div>
 							<div className="col-md-auto" style={{textAlign: "right"}}>
