@@ -4,7 +4,7 @@ const SummaryEn = () => {
 				<h6>About me:</h6>
 				<p>
 					From 2010 until I graduated in 2012, I worked as a part-time student in my own department at my university. I have been
-					in software development activities since I won Erzincan University in 2010.
+					in software development activities since I won Erzincan University in 2010. I graduated from Anadolu University Faculty of Business Administration in 2012.
 				</p>
 				<p>
 					I founded and managed Gazi Software company between 2017-2018, worked as a software specialist in the development of

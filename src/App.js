@@ -14,8 +14,13 @@ function App() {
 					style={{paddingTop: 20}}
 				>
 					<div className="col-md-6">
-						<div className="row">
-							<div className="col" style={{textAlign: "right"}}>
+						<div className="row" style={{justifyContent: "space-between"}}>
+							<div className="col-md-auto">
+								<a href={"/blog"} style={{ color: "antiquewhite", cursor: "pointer", textDecoration: "underline"}}>
+									{language === "tr" ? "Blog'u Oku" : "Read the Blog"}
+								</a>
+							</div>
+							<div className="col-md-auto" style={{textAlign: "right"}}>
 								<a href={()=>false} onClick={(e) => {
 										setLanguage("tr")
 							}} style={{ color: "antiquewhite", cursor: "pointer", textDecoration: "underline", fontWeight: language==="tr"?"bold":"normal"}}>
