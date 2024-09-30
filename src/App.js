@@ -47,8 +47,8 @@ function App() {
 							</div>
 							<div className="col">
 								<h1>Orhan Gazi Kılıç</h1>
-								{language === "tr" ? <h4>13 yıldır Türkiye'de Yazılım Uzmanı</h4> : <h4>Software Developer in Turkey since 13 years</h4>}
-								<p>Gazi Software Comp.</p>
+								{language === "tr" ? <h4>14 yıldır Türkiye'de Yazılım Uzmanı</h4> : <h4>Software Developer in Turkey since 14 years</h4>}
+								{language === "tr" ? <p>Gazi Yazılım.</p> : <p>Gazi Software Comp.</p>}
 							</div>
 						</div>
 						<hr />
@@ -59,7 +59,7 @@ function App() {
 							<span>Linkedin: </span>
 							<a
 								style={{color: "antiquewhite"}}
-								href="https://www.linkedin.com/in/orhan-gazi-k%C4%B1l%C4%B1%C3%A7-09147077/"
+								href="https://www.linkedin.com/in/orhan-gazi-kilic"
 								target="_blank"
 								rel="noreferrer"
 							>
